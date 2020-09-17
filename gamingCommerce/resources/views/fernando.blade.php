@@ -196,7 +196,7 @@
                 </div>
                 <div class="card">
                     <div class="row">
-                        <div class="col-md-3 bg-danger" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="col-md-3 bg-info" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                             <div class="card-body cc-experience-header">
                                 <p>Enero 2020 - Agosto 2020</p>
                                 <div class="h5">CBTIs 118</div>
@@ -236,8 +236,8 @@
                         </div>
                         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                             <div class="card-body">
-                                <div class="h5">Programador de Robot RFC</div>
-                                <p>Programación de robot para competencia RFC de la prepa tec campus guadalajara.</p>
+                                <div class="h5">Programador de Robot FRC</div>
+                                <p>Programación de robot para competencia FRC de la prepa tec campus guadalajara.</p>
                             </div>
                         </div>
                     </div>

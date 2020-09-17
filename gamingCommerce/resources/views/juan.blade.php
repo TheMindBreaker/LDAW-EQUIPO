@@ -41,7 +41,7 @@
                         <div class="content-center">
                             <div class="cc-profile-image"><a href="#"><img src="{{asset('/images/juan/logo.jpeg')}}" alt="Image"/></a></div>
                             <div class="h2 title">Juan Manuel Amador Perez</div>
-                            <p class="category text-white">Web Developer, UX Designer, FullStack Developer, Network Manager, Linux Servers</p>
+                            <p class="category text-white">Web Developer, FullStack Developer</p>
                         </div>
                     </div>
                 </div>
