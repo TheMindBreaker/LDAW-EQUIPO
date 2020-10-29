@@ -28,3 +28,8 @@ Route::get('/memo', function () {
 Route::get('/juan', function () {
     return view('juan');
 });
+
+
+Route::resource('users', App\Http\Controllers\usersController::class);
+
+Route::resource('consoles', App\Http\Controllers\consolesController::class);

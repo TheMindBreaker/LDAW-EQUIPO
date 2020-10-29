@@ -11,6 +11,8 @@
 |
 */
 
+use KitLoong\MigrationsGenerator\MigrationsGeneratorServiceProvider;
+
 $app = new Illuminate\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
 );
@@ -51,5 +53,8 @@ $app->singleton(
 | from the actual running of the application and sending responses.
 |
 */
+
+$app->register(MigrationsGeneratorServiceProvider::class);
+$app->withFacades();
 
 return $app;

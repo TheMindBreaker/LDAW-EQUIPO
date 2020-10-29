@@ -1,0 +1,17 @@
+<!-- Conname Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('conName', 'Conname:') !!}
+    {!! Form::text('conName', null, ['class' => 'form-control','maxlength' => 255,'maxlength' => 255]) !!}
+</div>
+
+<!-- Conbrand Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('conBrand', 'Conbrand:') !!}
+    {!! Form::text('conBrand', null, ['class' => 'form-control','maxlength' => 255,'maxlength' => 255]) !!}
+</div>
+
+<!-- Submit Field -->
+<div class="form-group col-sm-12">
+    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
+    <a href="{{ route('consoles.index') }}" class="btn btn-default">Cancel</a>
+</div>
