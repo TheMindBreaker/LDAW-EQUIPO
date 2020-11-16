@@ -45,7 +45,7 @@
             "database/factories"
         ],
         "files": [
-            "database/seeds/UsersAndNotesSeeder.php",
+          "database/seeds/UsersAndRolesSeeder.php",
             "database/seeds/MenusTableSeeder.php"
         ]
     },
